@@ -5,9 +5,13 @@ import { FormsModule } from '@angular/forms';
 import { ListadeexercicioRoutingModule } from './listadeexercicio-routing-module';
 import { Exercicio1 } from './exercicio1/exercicio1';
 import { Exercicio2 } from './exercicio2/exercicio2';
+import { Exercicio3 } from './exercicio3/exercicio3';
+import { Exercicio4 } from './exercicio4/exercicio4';
+import { Exercicio5 } from './exercicio5/exercicio5';
+import { Exercicio6 } from './exercicio6/exercicio6';
 
 @NgModule({
-  declarations: [Exercicio1, Exercicio2],
+  declarations: [Exercicio1, Exercicio2, Exercicio3, Exercicio4, Exercicio5, Exercicio6],
   imports: [CommonModule, ListadeexercicioRoutingModule, FormsModule],
 })
 export class ListadeexercicioModule {}

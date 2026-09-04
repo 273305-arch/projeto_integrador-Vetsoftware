@@ -1,0 +1,19 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-exercicio5',
+  standalone: false,
+  templateUrl: './exercicio5.html',
+  styleUrl: './exercicio5.scss',
+})
+export class Exercicio5 {
+  curtir = 0;
+  Quant = this.curtir;
+  
+  darCurtida(){
+    this.curtir++;
+  }
+  quantidade(){
+    this.Quant;
+  }
+}
