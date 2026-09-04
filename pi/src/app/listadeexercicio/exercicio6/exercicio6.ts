@@ -10,8 +10,10 @@ export class Exercicio6 {
   quantidade = 0;
 
   diminuir(){
+    if (this.quantidade > 0){
     this.quantidade--;
   }
+}
   aumentar(){
     this.quantidade++;
   }

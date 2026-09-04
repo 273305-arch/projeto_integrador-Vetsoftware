@@ -1,3 +1,4 @@
-<p>Quantidade: {{ quantidade }}</p>
-<button (click)="diminuir">[-]</button>
-<button (click)="aumentar">[+]</button>
+<button (click)="diminuir()" [disabled]="quantidade === 0">[-]</button>
+<button (click)="aumentar()">[+]</button>
+
+<p>{{ quantidade }}</p>

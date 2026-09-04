@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './exercicio4.scss',
 })
 export class Exercicio4 {
-  formularioValido = false;
+  formularioValido = true;
   
 }

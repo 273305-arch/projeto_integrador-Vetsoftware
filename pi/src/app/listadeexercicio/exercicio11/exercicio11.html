@@ -1,0 +1,15 @@
+<p>Nome: {{ nome }}</p><br>
+<label>Preço: </label><br>
+<input type="text" [(ngModel)]="preco" (ngModelChange)="calcularTotal()"><br><br>
+<p>
+  <strong>Quantidade:</strong> {{ quantidade }}
+  <button (click)="diminuirQuantidade()" [disabled]="quantidade <= 1">[-]</button>
+  <button (click)="aumentarQuantidade()">[+]</button>
+</p>
+<button (click)="adicionarAoCarrinho()">Adicionar ao carrinho</button>
+<p *ngIf="mensagemCarrinho">{{ mensagemCarrinho }}</p>
+
+<p>Produto: {{ nome }}</p>
+<p>Preço: {{ preco | currency:'BRL': 'symbol':'1.2-2'}}</p>
+<p>Quantidade: {{ quantidade }}</p>
+<p>Total: {{ total | currency:'BRL': 'symbol':'1.2-2'}}</p>

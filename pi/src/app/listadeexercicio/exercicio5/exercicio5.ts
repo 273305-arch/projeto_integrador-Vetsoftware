@@ -13,7 +13,4 @@ export class Exercicio5 {
   darCurtida(){
     this.curtir++;
   }
-  quantidade(){
-    this.Quant;
-  }
 }
