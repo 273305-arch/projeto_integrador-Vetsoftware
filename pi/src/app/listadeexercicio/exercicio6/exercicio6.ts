@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Exercicio6 {
   quantidade = 0;
+  nome: string = 'fone';
 
   diminuir(){
     if (this.quantidade > 0){

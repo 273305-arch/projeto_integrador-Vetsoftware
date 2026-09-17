@@ -1,1 +1,4 @@
-<p>exercicio9 works!</p>
+<p>{{ nome }}</p>
+<p>{{ estoque }}</p>
+<button (click)="diminuir()" [disabled]="estoque === 0">[-]</button>
+<button (click)="aumentar()">[+]</button>
