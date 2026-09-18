@@ -1,0 +1,9 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-exercicio14-2',
+  standalone: false,
+  templateUrl: './exercicio14-2.html',
+  styleUrl: './exercicio14-2.scss',
+})
+export class Exercicio142 {}
