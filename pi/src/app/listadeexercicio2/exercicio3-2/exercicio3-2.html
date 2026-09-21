@@ -1,1 +1,19 @@
-<p>exercicio3-2 works!</p>
+<p>IDADE ATUAL: {{ idade }} anos</p>
+
+<button (click)="diminuirIdade()" [disabled]="idade === 0">- Disminuir</button>
+<button (click)="aumentarIdade()">+ Aumentar</button>
+<div *ngIf="idade < 12">
+  <p>Classificação: Criança</p>
+</div>
+
+<div *ngIf="idade >= 12 && idade <= 17">
+  <p>Classificação: Adolescente</p>
+</div>
+
+<div *ngIf="idade >= 18 && idade <= 59">
+  <p>Classificação: Adulto</p>
+</div>
+
+<div *ngIf="idade >= 60">
+  <p>Classificação: Idoso</p>
+</div>

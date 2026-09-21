@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './exercicio1-2.html',
   styleUrl: './exercicio1-2.scss',
 })
-export class Exercicio12 {}
+export class Exercicio12 {
+  mensagemVisivel = true;
+
+  alternarMensagem(){
+      this.mensagemVisivel != this.mensagemVisivel;
+  }
+}

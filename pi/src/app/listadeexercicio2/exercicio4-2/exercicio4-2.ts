@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
   templateUrl: './exercicio4-2.html',
   styleUrl: './exercicio4-2.scss',
 })
-export class Exercicio42 {}
+export class Exercicio42 {
+  nomeProduto = 'Teclado'; 
+  quantidadeEstoque = 5; 
+
+  aumentarUnidade(){
+    this.quantidadeEstoque++;
+  }
+  removerUnidade(){
+    if (this.quantidadeEstoque > 0) {
+    this.quantidadeEstoque--;
+    }
+  }
+}

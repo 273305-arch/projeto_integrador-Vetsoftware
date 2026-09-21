@@ -15,7 +15,7 @@ const routes: Routes = [
     loadChildren: () => import('./listadeexercicio/listadeexercicio-module').then(p => p.ListadeexercicioModule)
   },
   {
-    path: 'lista de exercicios 2',
+    path: 'lista-de-exercicios-2',
     loadChildren: () => import('./listadeexercicio2/listadeexercicio2-module').then(p => p.Listadeexercicio2Module)
   }
 ];

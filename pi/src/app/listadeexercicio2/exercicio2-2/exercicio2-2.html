@@ -1,1 +1,11 @@
-<p>exercicio2-2 works!</p>
+<button (click)="loginCond()">
+    {{ usuarioLogado ? 'deslogar' : 'logado' }}
+</button>
+
+<div *ngIf="usuarioLogado; else naoAutorizado">
+    <p>Usuario autenticado</p>
+</div>
+
+<ng-template #naoAutorizado>
+    <p>usurio nao autenticado</p>
+</ng-template>

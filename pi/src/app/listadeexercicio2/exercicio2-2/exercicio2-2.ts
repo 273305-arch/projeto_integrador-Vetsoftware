@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   templateUrl: './exercicio2-2.html',
   styleUrl: './exercicio2-2.scss',
 })
-export class Exercicio22 {}
+export class Exercicio22 {
+  usuarioLogado = false;
+
+  loginCond(){
+    this.usuarioLogado != this.usuarioLogado;
+  }
+}

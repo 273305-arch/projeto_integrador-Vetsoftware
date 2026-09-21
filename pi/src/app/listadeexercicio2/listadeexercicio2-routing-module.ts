@@ -17,46 +17,46 @@ import { Exercicio142 } from './exercicio14-2/exercicio14-2';
 
 const routes: Routes = [
   {
-    path: 'Exercicio1-2', component: Exercicio12
+    path: 'exercicio1-2', component: Exercicio12
   },
   {
-    path: 'Exercicio2-2', component: Exercicio22
+    path: 'exercicio2-2', component: Exercicio22
   },
   {
-    path: 'Exercicio3-2', component: Exercicio32
+    path: 'exercicio3-2', component: Exercicio32
   },
   {
-    path: 'Exercicio4-2', component: Exercicio42
+    path: 'exercicio4-2', component: Exercicio42
   },
   {
-    path: 'Exercicio5-2', component: Exercicio52
+    path: 'exercicio5-2', component: Exercicio52
   },
   {
-    path: 'Exercicio6-2', component: Exercicio62
+    path: 'exercicio6-2', component: Exercicio62
   },
   {
-    path: 'Exercicio7-2', component: Exercicio72
+    path: 'exercicio7-2', component: Exercicio72
   },
   {
-    path: 'Exercicio8-2', component: Exercicio82
+    path: 'exercicio8-2', component: Exercicio82
   },
   {
-    path: 'Exercicio9-2', component: Exercicio92
+    path: 'exercicio9-2', component: Exercicio92
   },
   {
-    path: 'Exercicio10-2', component: Exercicio102
+    path: 'exercicio10-2', component: Exercicio102
   },
   {
-    path: 'Exercicio11-2', component: Exercicio112
+    path: 'exercicio11-2', component: Exercicio112
   },
   {
-    path: 'Exercicio12-2', component: Exercicio122
+    path: 'exercicio12-2', component: Exercicio122
   },
   {
-    path: 'Exercicio13-2', component: Exercicio132
+    path: 'exercicio13-2', component: Exercicio132
   },
   {
-    path: 'Exercicio14-2', component: Exercicio142
+    path: 'exercicio14-2', component: Exercicio142
   }
 ];
 
