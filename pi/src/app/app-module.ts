@@ -5,20 +5,12 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { ListadeexercicioModule } from './listadeexercicio/listadeexercicio-module';
 import { Listadeexercicio2Module } from './listadeexercicio2/listadeexercicio2-module';
+import { AppCabecalho } from './app-cabecalho/app-cabecalho';
 
 @NgModule({
-  declarations: [
-    App
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ListadeexercicioModule,
-    Listadeexercicio2Module
-  ],
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-  ],
-  bootstrap: [App]
+  declarations: [App, AppCabecalho],
+  imports: [BrowserModule, AppRoutingModule, ListadeexercicioModule, Listadeexercicio2Module],
+  providers: [provideBrowserGlobalErrorListeners()],
+  bootstrap: [App],
 })
-export class AppModule { }
+export class AppModule {}
